@@ -17,33 +17,38 @@ body{
   padding: 40px;
   box-sizing: border-box;
   background: #191b28;;
-  box-shadow: 14px 14px 20px #090e36, -14px -14px 20px #090e36;
+  
 }
 }
 .display-box{
     background-color: #fff;
-    border: solid black 1px;
+    border: solid gold 1px;
     border-radius: 1px;
     height: 30%
 }
 #results{
-    height: 40%;
+    height: 60%;
 }
 #btn{
     background-color: red;
 }
 input[type="button"]{
-    background-color: #e5e5e5;
-    color: black;
-    border: solid black 0.5px;
+    background-color: #000;
+    color: #fff;
+    border: none;
     border-radius: 2px;
     height: 30%;
     padding: 10px;
+    margin: 10px;
     outline: none;
 }
 @media screen and (max-width: 700px) {
+     body{
+        justify-content: center;
+        align-items: center;
+     }
     .calculator{
-        width: 200px;
+        width: 300px;
         height: 600px;
     }
 }
