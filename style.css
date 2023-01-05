@@ -16,7 +16,7 @@ body{
   border-radius: 20px;
   padding: 40px;
   box-sizing: border-box;
-  background: #191b28;;
+  background: gold;
   
 }
 }
@@ -33,7 +33,7 @@ body{
     background-color: red;
 }
 input[type="button"]{
-    background-color: gold;
+    background-color: black;
     color: #fff;
     border: none;
     border-radius: 2px;
